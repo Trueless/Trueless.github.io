@@ -1,8 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
   font-family: "Zen Kurenaido", sans-serif;
   line-height: 1.36;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0;
 }
 
 #navbar {
@@ -18,12 +31,21 @@ body {
 
 #navbar ul {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   list-style-type: none;
 }
 
+/* @media (max-width: 460px) {
+  #navbar ul {
+    flex-wrap: wrap;
+  }
+  #navbar ul a {
+    margin: 2px;
+  }
+} */
+
 #navbar ul a {
-  text-decoration: none;
   color: white;
   padding: 8px;
   margin: 4px;
@@ -55,15 +77,104 @@ body {
   background-color: rgba(0, 0, 0, 0.45);
 }
 
-#main-background .hero-content .btn {
+.btn {
   display: inline;
   font-weight: 900;
-  color: white;
+  color: black;
   background-color: #ffa6d5;
-  padding: 0.8em;
+  padding: 0.6em;
   border-radius: 10px;
+  margin-top: 1rem;
 }
 
-#main-background .hero-content .btn:hover {
+.btn:hover {
   background-color: #b5deff;
+}
+
+#main-background .hero-content h2 {
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+#main-background .hero-content p {
+  width: 86%;
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  padding: 0.5em;
+  margin: 1rem 0;
+}
+
+.container {
+  text-align: center;
+  padding: 0 5vh;
+  background-color: #fff7e0;
+  position: relative;
+}
+
+.container .img-src {
+  padding: 0;
+  margin: 0;
+}
+
+.container .img-src a {
+  color: #ffa6d5;
+  font-weight: bold;
+}
+
+.container h2 {
+  font-size: clamp(1.2rem, 2.5vw, 2.5rem);
+  margin: 0.8rem 0;
+}
+
+.wrap {
+  width: 60%;
+  margin: auto;
+}
+
+.container .show-video {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.container .show-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container .check-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.container .check-area .btn {
+  font-size: clamp(1.2rem, 1.4vw, 1.8rem);
+  padding: 0.8em;
+  margin: 0.4em 0.2em;
+}
+
+.top-btn {
+  position: relative;
+  height: 45px;
+}
+
+.container .top-btn .btn {
+  position: absolute;
+  right: 0px;
+  background-color: #9d84b7;
+  color: white;
+  padding: 0.6rem;
+  margin: 0;
+}
+
+#footer {
+  background-color: #9d84b7;
+  color: white;
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  text-align: center;
+  padding: 0.4em;
 }
