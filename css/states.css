@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Zen Kurenaido", sans-serif;
+  line-height: 1.36;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff7e0;
+  height: 86vh;
+}
+
+.container img {
+  max-width: 65vw;
+}
+
+.container p {
+  width: 80%;
+}
+
+.btn {
+  display: inline;
+  color: black;
+  background-color: #ffa6d5;
+  border-radius: 10px;
+  padding: 0.2em;
+}
+
+.btn:hover {
+  background-color: #b5deff;
+}
+
+#footer {
+  box-sizing: border-box;
+
+  background-color: #9d84b7;
+  color: white;
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  text-align: center;
+  padding: 0.4em;
+  height: 14vh;
+}
+
+#footer p {
+  padding: 0.9em 0;
+}
