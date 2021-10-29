@@ -13,6 +13,7 @@ New brand webpage, using a better workflow to have more consistent updates.
 0.6.0 Added recourses.
 0.6.1 Fixed minor things.
 0.7.0 Deployed base site.
+0.8.0 Fixed some "things" added Bio page.
 
 ### Disclaimer
 

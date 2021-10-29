@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #ffa6d5;
+}
+
+body {
+  height: 100vh;
+  font-family: "Zen Kurenaido", sans-serif;
+  line-height: 1.36;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff7e0;
+}
+
+#navbar {
+  box-sizing: border-box;
+  display: flex;
+  font-size: 18px;
+  min-height: 100px;
+  background: #150050;
+  color: white;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+#navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+
+#navbar ul a {
+  color: white;
+  padding: 8px;
+  margin: 4px;
+}
+
+#navbar ul a:hover {
+  background-color: #ffa6d5;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .bio-img {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .bio-img img {
+  width: 80%;
+  padding: 0 auto;
+}
+
+.container .bio-content {
+  padding: 1em;
+  width: clamp(45ch, 80%, 75ch);
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+  .container {
+    flex-direction: row;
+  }
+  .container div {
+    flex: 1;
+  }
+}
+
+#footer {
+  box-sizing: border-box;
+  margin-top: auto;
+  background-color: #9d84b7;
+  color: white;
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  text-align: center;
+  padding: 0.4em;
+}
+
+#footer p {
+  padding: 0.9em 0;
+}
