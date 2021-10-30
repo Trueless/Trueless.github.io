@@ -68,6 +68,7 @@ body {
 
 .container .bio-content {
   padding: 1em;
+  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
   width: clamp(45ch, 80%, 75ch);
   margin: auto;
 }
