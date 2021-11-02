@@ -1,0 +1,54 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff7e0;
+
+  font-family: "Zen Kurenaido", sans-serif;
+  line-height: 1.36;
+}
+
+a {
+  text-decoration: none;
+  color: #ffa6d5;
+}
+
+#navbar {
+  box-sizing: border-box;
+  display: flex;
+  font-size: 18px;
+  min-height: 100px;
+  background: #150050;
+  color: white;
+  padding: 8px;
+  justify-content: space-between;
+}
+
+#navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style-type: none;
+}
+
+#navbar ul a {
+  color: white;
+  padding: 8px;
+  margin: 4px;
+}
+
+#navbar ul a:hover {
+  background-color: #ffa6d5;
+  color: black;
+}
+
+#list-post {
+  text-align: center;
+}
+
+.post {
+  text-align: center;
+}
