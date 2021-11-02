@@ -71,6 +71,9 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.container .bio-content {
   font-size: clamp(1.06rem, 1.4vw, 1.6rem);
 }
 
