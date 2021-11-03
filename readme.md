@@ -18,6 +18,7 @@ New brand webpage, using a better workflow to have more consistent updates.
 0.8.2 There were some issues with some responsiveness.
 0.9.0 Videos section added and light boiler-plate for post section too.
 0.9.1 Small fix with the bio's size-font.
+0.9.2 Added top button for videos section.
 
 ### Disclaimer
 
