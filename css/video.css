@@ -97,6 +97,10 @@ p {
   margin: 0;
 }
 
+.older-videos ul {
+  padding: 0.25em 2vh;
+}
+
 #footer {
   background-color: #9d84b7;
   color: white;
